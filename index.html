@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Language Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Introduction Section -->
+    <header>
+        <h1>Welcome to the Language Learning Web</h1>
+        <p>Learn German with interactive exercises!</p>
+    </header>
+
+    <!-- Flashcards Section -->
+    <main>
+        <section class="flashcards-container">
+            <h2>German Vocabulary Flashcards</h2>
+            
+            <!-- Flashcard 1 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Haus</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>House</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 2 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Auto</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Car</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 3 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Apfel</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Apple</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 4 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Buch</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Book</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 5 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Hund</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Dog</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 6 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Katz</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Cat</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 7 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Stuhl</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Chair</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 8 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Fenster</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Window</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 9 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Lehrer</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>Teacher</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+            <!-- Flashcard 10 -->
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="front">
+                    <p>Schule</p> <!-- German word on the front -->
+                </div>
+                <div class="back">
+                    <p>School</p> <!-- English translation on the back -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Quiz Section -->
+        <section class="quiz-container">
+            <h2>German Vocabulary Quiz</h2>
+            <form id="quiz-form">
+                
+                <!-- Question 1 -->
+                <h3>What is the translation of ‘Apfel’?</h3>
+                <label>
+                    <input type="radio" name="answer1" value="A"> A) Orange
+                </label><br>
+                <label>
+                    <input type="radio" name="answer1" value="B"> B) Apple
+                </label><br>
+                <label>
+                    <input type="radio" name="answer1" value="C"> C) Banana
+                </label><br>
+
+                <!-- Question 2 -->
+                <h3>What is the translation of ‘Hund’?</h3>
+                <label>
+                    <input type="radio" name="answer2" value="A"> A) Cat
+                </label><br>
+                <label>
+                    <input type="radio" name="answer2" value="B"> B) Dog
+                </label><br>
+                <label>
+                    <input type="radio" name="answer2" value="C"> C) Horse
+                </label><br>
+
+                <!-- Question 3 -->
+                <h3>What is the translation of ‘Buch’?</h3>
+                <label>
+                    <input type="radio" name="answer3" value="A"> A) Book
+                </label><br>
+                <label>
+                    <input type="radio" name="answer3" value="B"> B) Pen
+                </label><br>
+                <label>
+                    <input type="radio" name="answer3" value="C"> C) Chair
+                </label><br>
+
+                <!-- Question 4 -->
+                <h3>What is the translation of ‘Stuhl’?</h3>
+                <label>
+                    <input type="radio" name="answer4" value="A"> A) Chair
+                </label><br>
+                <label>
+                    <input type="radio" name="answer4" value="B"> B) Table
+                </label><br>
+                <label>
+                    <input type="radio" name="answer4" value="C"> C) Bed
+                </label><br>
+
+                <!-- Question 5 -->
+                <h3>What is the translation of ‘Auto’?</h3>
+                <label>
+                    <input type="radio" name="answer5" value="A"> A) Truck
+                </label><br>
+                <label>
+                    <input type="radio" name="answer5" value="B"> B) Car
+                </label><br>
+                <label>
+                    <input type="radio" name="answer5" value="C"> C) Bicycle
+                </label><br>
+
+                <!-- Question 6 -->
+                <h3>What is the translation of ‘Fenster’?</h3>
+                <label>
+                    <input type="radio" name="answer6" value="A"> A) Door
+                </label><br>
+                <label>
+                    <input type="radio" name="answer6" value="B"> B) Window
+                </label><br>
+                <label>
+                    <input type="radio" name="answer6" value="C"> C) Wall
+                </label><br>
+
+                <!-- Question 7 -->
+                <h3>What is the translation of ‘Katz’?</h3>
+                <label>
+                    <input type="radio" name="answer7" value="A"> A) Dog
+                </label><br>
+                <label>
+                    <input type="radio" name="answer7" value="B"> B) Cat
+                </label><br>
+                <label>
+                    <input type="radio" name="answer7" value="C"> C) Cow
+                </label><br>
+
+                <!-- Question 8 -->
+                <h3>What is the translation of ‘Lehrer’?</h3>
+                <label>
+                    <input type="radio" name="answer8" value="A"> A) Teacher
+                </label><br>
+                <label>
+                    <input type="radio" name="answer8" value="B"> B) Student
+                </label><br>
+                <label>
+                    <input type="radio" name="answer8" value="C"> C) Friend
+                </label><br>
+
+                <!-- Question 9 -->
+                <h3>What is the translation of ‘Schule’?</h3>
+                <label>
+                    <input type="radio" name="answer9" value="A"> A) Park
+                </label><br>
+                <label>
+                    <input type="radio" name="answer9" value="B"> B) School
+                </label><br>
+                <label>
+                    <input type="radio" name="answer9" value="C"> C) Church
+                </label><br>
+
+                <!-- Question 10 -->
+                <h3>What is the translation of ‘Apfel’?</h3>
+                <label>
+                    <input type="radio" name="answer10" value="A"> A) Apple
+                </label><br>
+                <label>
+                    <input type="radio" name="answer10" value="B"> B) Orange
+                </label><br>
+                <label>
+                    <input type="radio" name="answer10" value="C"> C) Banana
+                </label><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 German Language Learning</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- External JavaScript file -->
+
+</body>
+</html>
+
